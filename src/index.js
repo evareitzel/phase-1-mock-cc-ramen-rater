@@ -15,7 +15,6 @@ function renderRamenImage(ramen) {
   ramenImg.addEventListener('click', displayRamenDetails(ramen)
   )
   document.querySelector('#ramen-menu').append(ramenImg)
-  displayRamenDetails(ramen)
 }
 
 function displayRamenDetails(ramen) {
