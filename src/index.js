@@ -18,9 +18,7 @@ function renderRamenImage(ramen) {
 }
 
 function displayRamenDetails(ramen) {
-  // add link on each image to show that ramen's details
-  // click to show #ramen-detail div
-  // FIX: make it grab multiple ramens / display with an <a href>
+  // FIX: make each #ramen-menu image show that ramen's details
   console.log(ramen)
   document.querySelector('.detail-image').src = ramen.image
   document.querySelector('.name').innerText = ramen.name
